@@ -1,31 +1,5 @@
-// title
-// body
-// author
-// views
-// comments
-//   (author, body)
-// isLive
-
 const ExerciseBlogPostObject = () => {
-  // const createBlogPost = (
-  //   body,
-  //   author,
-  //   views,
-  //   commentAuthor,
-  //   commentBody,
-  //   isLive
-  // ) => {
-  //   return {
-  //     body,
-  //     author,
-  //     views,
-  //     comments: { commentAuthor, commentBody },
-  //     isLive,
-  //   };
-  // };
-
-  // console.log(createBlogPost("this is great", "RD", 5, "I agree", true, false));
-
+  // object literal syntax
   let post = {
     body: "Super foods",
     author: "RD",

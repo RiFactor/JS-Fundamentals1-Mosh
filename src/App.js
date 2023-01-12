@@ -5,6 +5,7 @@ import ExerciseAddressObject from './pages/JS1/Objects/exerciseaddressobject';
 import ExerciseFactoryAndConstructorFunctions from './pages/JS1/Objects/exerciseFactoryAndConstructorFunctions';
 import ExerciseObjectEquality from './pages/JS1/Objects/exerciseObjectEquality';
 import ExerciseBlogPostObject from './pages/JS1/Objects/exerciseBlogPostObject';
+import ExerciseConstructorFunctions from './pages/JS1/Objects/exerciseConstructorFunctions';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExerciseFactoryAndConstructorFunctions/>
       <ExerciseObjectEquality/>
       <ExerciseBlogPostObject/>
+      <ExerciseConstructorFunctions/>
       </>
   );
 }
