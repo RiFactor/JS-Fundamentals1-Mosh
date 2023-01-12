@@ -1,7 +1,9 @@
 const ObjEnumerateProps = () => {
+  const now = new Date();
+
   return (
     <main>
-      <h1>hi</h1>
+      <h1>Enumerating Properties</h1>
     </main>
   );
 };
