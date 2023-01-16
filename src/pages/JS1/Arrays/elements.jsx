@@ -38,14 +38,14 @@ const Elements = () => {
   // FIND ELEMENTS(Reference)
   const courses = [
     { id: 1, name: "Econ" },
-    { id: 2, name: "Maths" },
+    { id: 2, name: "Maths" }
   ];
 
   // .includes won't work b/c diff reference to actual object, diff memory locations
   console.clear();
   const noCourse = courses.includes({ id: 1, name: "Econ" });
 
-  const course = courses.find((course) => {
+  const course = courses.find(course => {
     return course.name === "Econ";
   });
 
@@ -54,12 +54,37 @@ const Elements = () => {
   });
 
   // ARROW FUNCTION
-  const course3 = courses.findIndex((course) => course.name === "Econ"); // don't need return keyword if returning on one line (preference?)
+  const course3 = courses.findIndex(course => course.name === "Econ"); // don't need return keyword if returning on one line (preference?)
 
   console.log(noCourse);
   console.log(course);
   console.log(course2); // found at index = 0
   console.log(course3);
+
+  // EMPTYING AN ARRAY
+
+  let fruits = ["apples", "oranges", "bananas"]; // const -> let
+  const produce = fruits; // additional reference pointing to the original array
+
+  console.log(fruits);
+  console.log(produce);
+
+  // // Option 1
+  // fruits = []; //need to use 'let', won't change original array
+  // // if this is the only reference to the object, the garbage collector will remove the array,
+  // // however b/c there is another reference, the OG array will still exist
+
+  // // Option 2
+  fruits.length = 0; // works for both arrays
+
+  // // Option 3 - not recommended
+  // fruits.splice(0, fruits.length);
+
+  // // // Option 4 - not recommended, too long
+  // while (fruits.length > 0) fruits.pop(); // particularly for long arrays
+
+  console.log(fruits);
+  console.log(produce);
 };
 
 export default Elements;
