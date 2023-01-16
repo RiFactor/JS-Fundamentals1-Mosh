@@ -12,11 +12,14 @@ import ExercisePriceRangeObject from './pages/JS1/Objects/exercisePriceRangeObje
 
 //Arrays
 import Elements from './pages/JS1/Arrays/elements';
-import ShallowCopy from './pages/JS1/Arrays/shallowCopy';
+import ShallowCopy from './pages/shallowCopy';
 
 function App() {
   return (
     <>
+    <section className='additionalLearning'>
+      <ShallowCopy/>
+    </section>
       <section className='Objects'>
         <ObjEnumerateProps/>
         <ExerciseAddressObject/>
@@ -28,7 +31,6 @@ function App() {
       </section>
       <section className='Arrays'>
         <Elements/>
-        <ShallowCopy/>
       </section>
       </>
   );
