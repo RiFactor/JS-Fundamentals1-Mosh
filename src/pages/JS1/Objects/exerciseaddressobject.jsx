@@ -2,10 +2,10 @@ const ExerciseAddressObject = () => {
   const myAddress = {
     street: "Sesame Street",
     city: "Manhattan",
-    zipCode: 10023,
+    zipCode: 10023
   };
 
-  const showAdress = (address) => {
+  const showAdress = address => {
     for (let key in address) {
       // can't get this to display on webapp
       //   //   <div>{key}</div>;
