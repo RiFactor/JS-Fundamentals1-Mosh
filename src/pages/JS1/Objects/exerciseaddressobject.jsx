@@ -17,7 +17,7 @@ const ExerciseAddressObject = () => {
 
   return (
     <div>
-      <h1>Exercise Address Object</h1>
+      <h2>Exercise Address Object</h2>
       <div>{showAdress(myAddress)}</div>
     </div>
   );

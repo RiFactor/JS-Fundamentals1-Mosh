@@ -85,6 +85,8 @@ const Elements = () => {
 
   console.log(fruits);
   console.log(produce);
+
+  return <h2>Elements</h2>;
 };
 
 export default Elements;

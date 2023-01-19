@@ -31,7 +31,7 @@ const ExerciseObjectEquality = () => {
 
   return (
     <main>
-      <h1>Exercise Object Equality</h1>
+      <h2>Exercise Object Equality</h2>
     </main>
   );
 };

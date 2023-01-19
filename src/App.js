@@ -12,14 +12,17 @@ import ExercisePriceRangeObject from './pages/JS1/Objects/exercisePriceRangeObje
 
 //Arrays
 import Elements from './pages/JS1/Arrays/elements';
-import ShallowCopy from './pages/shallowCopy';
+import CombiningAndSlicingArrays from './pages/JS1/Arrays/combiningAndSlicingArrays';
+import ShallowCopy from './pages/JS1/Arrays/shallowCopy';
+import SpreadOperator from './pages/JS1/Arrays/spreadOperator';
+import IteratingAnArray from './pages/JS1/Arrays/iteratingAnArray';
+import JoiningArrays from './pages/JS1/Arrays/joiningArrays';
+import SortingArrays from './pages/JS1/Arrays/sortingArrays';
+import TestingArrayElements from './pages/JS1/Arrays/testingArrayElements';
 
 function App() {
   return (
-    <>
-    <section className='additionalLearning'>
-      <ShallowCopy/>
-    </section>
+    <main>
       <section className='Objects'>
         <ObjEnumerateProps/>
         <ExerciseAddressObject/>
@@ -31,8 +34,15 @@ function App() {
       </section>
       <section className='Arrays'>
         <Elements/>
+        <ShallowCopy/>
+        <CombiningAndSlicingArrays/>
+        <SpreadOperator/>
+        <IteratingAnArray/>
+        <JoiningArrays/>
+        <SortingArrays/>
+        <TestingArrayElements/>
       </section>
-      </>
+      </main>
   );
 }
 

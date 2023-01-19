@@ -4,7 +4,7 @@ const ExerciseFactoryAndConstructorFunctions = () => {
     return {
       street, // street: street
       city,
-      zipCode,
+      zipCode
     };
   };
 
@@ -33,7 +33,7 @@ const ExerciseFactoryAndConstructorFunctions = () => {
 
   return (
     <main>
-      <h1>Exercise Factory And Constructor Functions</h1>
+      <h2>Exercise Factory And Constructor Functions</h2>
       {/* <p>{createFactoryAddress("Sesame Street", "Manhattan", 10223)}</p> */}
     </main>
   );

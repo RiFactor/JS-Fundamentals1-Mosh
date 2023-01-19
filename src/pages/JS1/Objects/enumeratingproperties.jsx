@@ -3,7 +3,7 @@ const ObjEnumerateProps = () => {
 
   return (
     <main>
-      <h1>Enumerating Properties</h1>
+      <h2>Enumerating Properties</h2>
     </main>
   );
 };
