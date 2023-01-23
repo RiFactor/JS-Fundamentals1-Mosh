@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Misc
+import TestIf from './pages/testIf';
+
 // Objects
 import ObjEnumerateProps from './pages/JS1/Objects/enumeratingproperties';
 import ExerciseAddressObject from './pages/JS1/Objects/exerciseaddressobject';
@@ -19,10 +22,22 @@ import IteratingAnArray from './pages/JS1/Arrays/iteratingAnArray';
 import JoiningArrays from './pages/JS1/Arrays/joiningArrays';
 import SortingArrays from './pages/JS1/Arrays/sortingArrays';
 import TestingArrayElements from './pages/JS1/Arrays/testingArrayElements';
+import FilteringAnArray from './pages/JS1/Arrays/filteringAnArray';
+import MappingAnArray from './pages/JS1/Arrays/mappingAnArray';
+import ReducingAnArray from './pages/JS1/Arrays/reducingAnArray';
+//Exercises
+import ArrayFromRange from './pages/JS1/Arrays/Exercises/arrayFromRange';
+import Includes from './pages/JS1/Arrays/Exercises/includes';
+import Except from './pages/JS1/Arrays/Exercises/except';
+import MovingAnElement from './pages/JS1/Arrays/Exercises/movingAnElement';
+
+
 
 function App() {
   return (
     <main>
+      {/* <section><TestIf/></section> */}
+
       <section className='Objects'>
         <ObjEnumerateProps/>
         <ExerciseAddressObject/>
@@ -41,6 +56,15 @@ function App() {
         <JoiningArrays/>
         <SortingArrays/>
         <TestingArrayElements/>
+        <FilteringAnArray/>
+        <MappingAnArray/>
+        <ReducingAnArray/>
+      </section>
+      <section className='Arrays--exercises'>
+        <ArrayFromRange/>
+        <Includes/>
+        <Except/>
+        <MovingAnElement/>
       </section>
       </main>
   );

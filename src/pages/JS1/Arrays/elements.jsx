@@ -11,7 +11,7 @@ const Elements = () => {
 
   numbers.push(4, 5); // add to the end
   numbers.unshift(0.5, 1); // add to the beginning
-  numbers.splice(2, 0, "hi"); // insert at index, delete
+  numbers.splice(2, 0, "hi"); // insert at index, delete count, element
 
   console.log(numbers);
 
