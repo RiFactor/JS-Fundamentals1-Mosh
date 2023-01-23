@@ -1,4 +1,6 @@
 const ReducingAnArray = () => {
+  // USE CASE: have an array and want to get a single value through iterating araray e.g. largest value / sum etc.
+
   const numbers = [5, 15, 23, -5];
 
   let sum = 0;

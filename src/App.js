@@ -30,6 +30,9 @@ import ArrayFromRange from './pages/JS1/Arrays/Exercises/arrayFromRange';
 import Includes from './pages/JS1/Arrays/Exercises/includes';
 import Except from './pages/JS1/Arrays/Exercises/except';
 import MovingAnElement from './pages/JS1/Arrays/Exercises/movingAnElement';
+import CountOccurences from './pages/JS1/Arrays/Exercises/countOccurences';
+import GetMax from './pages/JS1/Arrays/Exercises/getMax';
+import Movies from './pages/JS1/Arrays/Exercises/movies';
 
 
 
@@ -65,6 +68,9 @@ function App() {
         <Includes/>
         <Except/>
         <MovingAnElement/>
+        <CountOccurences/>
+        <GetMax/>
+        <Movies/>
       </section>
       </main>
   );
