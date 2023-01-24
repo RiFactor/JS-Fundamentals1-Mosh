@@ -35,13 +35,19 @@ import GetMax from './pages/JS1/Arrays/Exercises/getMax';
 import Movies from './pages/JS1/Arrays/Exercises/movies';
 
 
+// Functions
+import FunctionDeclarationsvsExpressions from './pages/JS1/Functions/functionDeclarationsvsExpressions';
+import Hoisting from './pages/JS1/Functions/hoisting';
+import Arguments from './pages/JS1/Functions/arguments';
+import RestOperator from './pages/JS1/Functions/restOperator';
 
 function App() {
+  console.log('test')
   return (
     <main>
       {/* <section><TestIf/></section> */}
 
-      <section className='Objects'>
+      <section className='objects'>
         <ObjEnumerateProps/>
         <ExerciseAddressObject/>
         <ExerciseFactoryAndConstructorFunctions/>
@@ -50,7 +56,7 @@ function App() {
         <ExerciseConstructorFunctions/>
         <ExercisePriceRangeObject/>
       </section>
-      <section className='Arrays'>
+      <section className='arrays'>
         <Elements/>
         <ShallowCopy/>
         <CombiningAndSlicingArrays/>
@@ -63,7 +69,7 @@ function App() {
         <MappingAnArray/>
         <ReducingAnArray/>
       </section>
-      <section className='Arrays--exercises'>
+      <section className='arrays--exercises'>
         <ArrayFromRange/>
         <Includes/>
         <Except/>
@@ -71,6 +77,12 @@ function App() {
         <CountOccurences/>
         <GetMax/>
         <Movies/>
+      </section>
+      <section className='functions'>
+        <FunctionDeclarationsvsExpressions/>
+        <Hoisting/>
+        <Arguments/>
+        <RestOperator/>
       </section>
       </main>
   );

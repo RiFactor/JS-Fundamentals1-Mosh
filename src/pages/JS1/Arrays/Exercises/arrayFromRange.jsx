@@ -1,5 +1,5 @@
 const ArrayFromRange = () => {
-  //   console.clear();
+  console.clear();
   const arrayFromRange = (a, b) => {
     const numbers = [];
     for (let i = a; i <= b; i++) {
