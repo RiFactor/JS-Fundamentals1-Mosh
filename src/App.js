@@ -5,13 +5,13 @@ import "./App.css";
 import TestIf from "./pages/testIf";
 
 // Objects
-import ObjEnumerateProps from "./pages/JS1/Objects/Enumeratingproperties";
-import ExerciseAddressObject from "./pages/JS1/Objects/Exercises/Addressobject";
-import ExerciseFactoryAndConstructorFunctions from "./pages/JS1/Objects/FactoryAndConstructorFunctions";
-import ExerciseObjectEquality from "./pages/JS1/Objects/Exercises/ObjectEquality";
-import ExerciseBlogPostObject from "./pages/JS1/Objects/BlogPostObject";
-import ExerciseConstructorFunctions from "./pages/JS1/Objects/ConstructorFunctions";
-import ExercisePriceRangeObject from "./pages/JS1/Objects/Exercises/PriceRangeObject";
+import AddressObject from "./pages/JS1/Objects/Exercises/AddressObject";
+import EnumeratingProperties from "./pages/JS1/Objects/EnumeratingProperties";
+import FactoryAndConstructorFunctions from "./pages/JS1/Objects/Exercises/FactoryAndConstructorFunctions";
+import ObjectEquality from "./pages/JS1/Objects/Exercises/ObjectEquality";
+import BlogPostObject from "./pages/JS1/Objects/BlogPostObject";
+import ConstructorFunctions from "./pages/JS1/Objects/Exercises/ConstructorFunctions";
+import PriceRangeObject from "./pages/JS1/Objects/Exercises/PriceRangeObject";
 
 //Arrays
 import Elements from "./pages/JS1/Arrays/Elements";
@@ -46,15 +46,14 @@ function App() {
   return (
     <main>
       {/* <section><TestIf/></section> */}
-
       <section className="objects">
-        <ObjEnumerateProps />
-        <ExerciseAddressObject />
-        <ExerciseFactoryAndConstructorFunctions />
-        <ExerciseObjectEquality />
-        <ExerciseBlogPostObject />
-        <ExerciseConstructorFunctions />
-        <ExercisePriceRangeObject />
+        <EnumeratingProperties />
+        <AddressObject />
+        <FactoryAndConstructorFunctions />
+        <ObjectEquality />
+        <BlogPostObject />
+        <ConstructorFunctions />
+        <PriceRangeObject />
       </section>
       <section className="arrays">
         <Elements />

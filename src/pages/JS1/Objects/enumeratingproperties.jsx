@@ -1,4 +1,4 @@
-const ObjEnumerateProps = () => {
+const EnumeratingProperties = () => {
   const now = new Date();
 
   return (
@@ -8,4 +8,4 @@ const ObjEnumerateProps = () => {
   );
 };
 
-export default ObjEnumerateProps;
+export default EnumeratingProperties;
