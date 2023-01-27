@@ -79,12 +79,28 @@ const ThisKeyword = () => {
     showTags() {
       this.tags.forEach(function (tag) {
         console.log(this.title, tag); // now this.references movies2
-      }, this); // could write any obj: {name: "me"} // Question -- doesn't work
+      }, this); // could write any obj: {name: "me"} // works when you change this.title to this / this.title
     }
   };
 
   console.log("movies 2");
   movies2.showTags();
+
+  const moviesBindObj = {
+    title: "movie2",
+    tags: ["a", "b", "c"],
+    showTags() {
+      this.tags.forEach(
+        function (tag) {
+          console.log(this.name, tag); // change to this or this.name (this.title doesn't exist on currently bound obj)
+        },
+        { name: "me test" }
+      ); // could write any obj: {name: "me"}
+    }
+  };
+
+  console.log("movies Bind Obj");
+  moviesBindObj.showTags();
 
   // ALTERNATE SOLUTIONS (not advised)
   const movies3 = {

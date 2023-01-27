@@ -7,7 +7,7 @@ const LetVar = () => {
   }
   // console.log(i); // not defined
 
-  // fn-scoped variables: var
+  // fn-scoped variables: var. NEVER use var
   // var - accessible outstide block {}, limited to fn defined in
   for (var j = 0; j < 5; j++) {
     console.log(j);
@@ -18,10 +18,16 @@ const LetVar = () => {
 
   var animal = "panda"; // attached to window object
   // window.animal; // DO NOT DO THIS, only 1 instance, 3rd party library may override var w/ same name var
+  // other risk for malicious intent
 
   function sayHi() {
     console.log("hi");
   }
+
+  const hello = () => {
+    // 'memory safe'
+    console.log("hello");
+  };
 
   // window.sayHi(); // do not want this either -- should use modules, explained later
 };
