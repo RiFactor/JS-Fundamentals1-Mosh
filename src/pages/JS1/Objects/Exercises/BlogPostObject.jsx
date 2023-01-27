@@ -1,4 +1,4 @@
-const ExerciseBlogPostObject = () => {
+const BlogPostObject = () => {
   // object literal syntax
   let post = {
     body: "Super foods",
@@ -7,17 +7,17 @@ const ExerciseBlogPostObject = () => {
     comments: [
       {
         author: "A",
-        body: "agreed",
+        body: "agreed"
       },
       {
         author: "B",
-        body: "better options",
-      },
+        body: "better options"
+      }
     ],
-    isLive: false,
+    isLive: false
   };
 
   console.log(post);
 };
 
-export default ExerciseBlogPostObject;
+export default BlogPostObject;

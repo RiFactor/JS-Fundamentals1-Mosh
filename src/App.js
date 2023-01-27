@@ -9,7 +9,7 @@ import AddressObject from "./pages/JS1/Objects/Exercises/AddressObject";
 import EnumeratingProperties from "./pages/JS1/Objects/EnumeratingProperties";
 import FactoryAndConstructorFunctions from "./pages/JS1/Objects/Exercises/FactoryAndConstructorFunctions";
 import ObjectEquality from "./pages/JS1/Objects/Exercises/ObjectEquality";
-import BlogPostObject from "./pages/JS1/Objects/BlogPostObject";
+import BlogPostObject from "./pages/JS1/Objects/Exercises/BlogPostObject";
 import ConstructorFunctions from "./pages/JS1/Objects/Exercises/ConstructorFunctions";
 import PriceRangeObject from "./pages/JS1/Objects/Exercises/PriceRangeObject";
 
@@ -41,6 +41,10 @@ import Arguments from "./pages/JS1/Functions/Arguments";
 import RestOperator from "./pages/JS1/Functions/RestOperator";
 import ThisKeyword from "./pages/JS1/Functions/ThisKeyword";
 import LetVar from "./pages/JS1/Functions/LetVar";
+// Exercises
+import SumOfArgumets from "./pages/JS1/Functions/Exercises/SumOfArguments";
+import Circle from "./pages/JS1/Functions/Exercises/Circle";
+import ErrorHandling from "./pages/JS1/Functions/Exercises/ErrorHandling";
 
 function App() {
   return (
@@ -84,6 +88,11 @@ function App() {
         <RestOperator />
         <ThisKeyword />
         <LetVar />
+      </section>
+      <section className="functions--exercises">
+        <SumOfArgumets />
+        <Circle />
+        <ErrorHandling />
       </section>
     </main>
   );
