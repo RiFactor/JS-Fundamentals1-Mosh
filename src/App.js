@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
 // Misc
-import TestIf from "./pages/testIf";
+// import TestIf from "./pages/testIf";
 
 // Objects
 import AddressObject from "./pages/JS1/Objects/Exercises/AddressObject";
@@ -39,8 +39,13 @@ import FunctionDeclarationsvsExpressions from "./pages/JS1/Functions/FunctionDec
 import Hoisting from "./pages/JS1/Functions/Hoisting";
 import Arguments from "./pages/JS1/Functions/Arguments";
 import RestOperator from "./pages/JS1/Functions/RestOperator";
+import DefaultParameters from "./pages/JS1/Functions/DefaultParameters";
+import GettersSetters from "./pages/JS1/Functions/GettersSetters";
+import TryCatch from "./pages/JS1/Functions/TryCatch";
+import LocalGlobalScope from "./pages/JS1/Functions/LocalGlobalScope.jsx";
 import ThisKeyword from "./pages/JS1/Functions/ThisKeyword";
 import LetVar from "./pages/JS1/Functions/LetVar";
+
 // Exercises
 import SumOfArgumets from "./pages/JS1/Functions/Exercises/SumOfArguments";
 import Circle from "./pages/JS1/Functions/Exercises/Circle";
@@ -86,6 +91,10 @@ function App() {
         <Hoisting />
         <Arguments />
         <RestOperator />
+        <DefaultParameters />
+        <GettersSetters />
+        <TryCatch />
+        <LocalGlobalScope />
         <ThisKeyword />
         <LetVar />
       </section>
