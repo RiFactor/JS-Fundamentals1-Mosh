@@ -4,6 +4,7 @@ import "./App.css";
 // Misc
 // import TestIf from "./pages/testIf";
 
+/* #region JS1 */
 // Objects
 import AddressObject from "./pages/JS1/Objects/Exercises/AddressObject";
 import EnumeratingProperties from "./pages/JS1/Objects/EnumeratingProperties";
@@ -50,58 +51,69 @@ import LetVar from "./pages/JS1/Functions/LetVar";
 import SumOfArgumets from "./pages/JS1/Functions/Exercises/SumOfArguments";
 import Circle from "./pages/JS1/Functions/Exercises/Circle";
 import ErrorHandling from "./pages/JS1/Functions/Exercises/ErrorHandling";
+/* #endregion */
+
+/* #region JS2 */
+import OOPIntro from "./pages/JS2/OOP/OOPIntro";
+/* #endregion */
 
 function App() {
   return (
     <main>
       {/* <section><TestIf/></section> */}
-      <section className="objects">
-        <EnumeratingProperties />
-        <AddressObject />
-        <FactoryAndConstructorFunctions />
-        <ObjectEquality />
-        <BlogPostObject />
-        <ConstructorFunctions />
-        <PriceRangeObject />
+      <section className="JS1">
+        <section className="objects">
+          <EnumeratingProperties />
+          <AddressObject />
+          <FactoryAndConstructorFunctions />
+          <ObjectEquality />
+          <BlogPostObject />
+          <ConstructorFunctions />
+          <PriceRangeObject />
+        </section>
+        <section className="arrays">
+          <Elements />
+          <ShallowCopy />
+          <CombiningAndSlicingArrays />
+          <SpreadOperator />
+          <IteratingAnArray />
+          <JoiningArrays />
+          <SortingArrays />
+          <TestingArrayElements />
+          <FilteringAnArray />
+          <MappingAnArray />
+          <ReducingAnArray />
+        </section>
+        <section className="arrays--exercises">
+          <ArrayFromRange />
+          <Includes />
+          <Except />
+          <MovingAnElement />
+          <CountOccurences />
+          <GetMax />
+          <Movies />
+        </section>
+        <section className="functions">
+          <FunctionDeclarationsvsExpressions />
+          <Hoisting />
+          <Arguments />
+          <RestOperator />
+          <DefaultParameters />
+          <GettersSetters />
+          <TryCatch />
+          <LocalGlobalScope />
+          <ThisKeyword />
+          <LetVar />
+        </section>
+        <section className="functions--exercises">
+          <SumOfArgumets />
+          <Circle />
+          <ErrorHandling />
+        </section>
       </section>
-      <section className="arrays">
-        <Elements />
-        <ShallowCopy />
-        <CombiningAndSlicingArrays />
-        <SpreadOperator />
-        <IteratingAnArray />
-        <JoiningArrays />
-        <SortingArrays />
-        <TestingArrayElements />
-        <FilteringAnArray />
-        <MappingAnArray />
-        <ReducingAnArray />
-      </section>
-      <section className="arrays--exercises">
-        <ArrayFromRange />
-        <Includes />
-        <Except />
-        <MovingAnElement />
-        <CountOccurences />
-        <GetMax />
-        <Movies />
-      </section>
-      <section className="functions">
-        <FunctionDeclarationsvsExpressions />
-        <Hoisting />
-        <Arguments />
-        <RestOperator />
-        <DefaultParameters />
-        <GettersSetters />
-        <TryCatch />
-        <LocalGlobalScope />
-        <ThisKeyword />
-        <LetVar />
-      </section>
-      <section className="functions--exercises">
-        <SumOfArgumets />
-        <Circle />
-        <ErrorHandling />
+      <section className="JS2">
+        <OOPIntro />
+        <section></section>
       </section>
     </main>
   );
