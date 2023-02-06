@@ -1,4 +1,4 @@
-import OOPIntroImage from "assets/OOPIntro.png"; // absolute paths best; '../' to jump out of folder
+import OOPIntroImage from "src/assets/OOPIntro.png"; // absolute paths best; '../' to jump out of folder
 
 const OOPIntro = () => {
   return (
