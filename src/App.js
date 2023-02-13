@@ -69,6 +69,9 @@ import FactoryConstructorFunctions from "src/pages/JS2/Objects/FactoryConstructo
 import FunctionsAreObjects from "src/pages/JS2/Objects/FunctionsAreObjects";
 import ValueVsReferenceTypes from "src/pages/JS2/Objects/ValueVsReferenceTypes";
 import ModifyingProperties from "src/pages/JS2/Objects/ModifyingProperties";
+import Abstraction from "src/pages/JS2/Objects/Abstraction";
+import Stopwatch from "src/pages/JS2/Objects/Stopwatch";
+import StopWatch2 from "src/pages/JS2/Objects/StopWatch2";
 
 /* #endregion */
 
@@ -128,12 +131,15 @@ function App() {
       </section>
       <section className="JS2">
         <OOPIntro />
-        <section>
+        <section className="objects">
           <ObjectLiterals />
           <FactoryConstructorFunctions />
           <FunctionsAreObjects />
           <ValueVsReferenceTypes />
           <ModifyingProperties />
+          <Abstraction />
+          <Stopwatch />
+          <StopWatch2 />
         </section>
         {/* <section className="JS1basics">
           <Variables />
