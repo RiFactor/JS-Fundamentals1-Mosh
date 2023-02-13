@@ -26,6 +26,7 @@ import TestingArrayElements from "src/pages/JS1/Arrays/TestingArrayElements";
 import FilteringAnArray from "src/pages/JS1/Arrays/FilteringAnArray";
 import MappingAnArray from "src/pages/JS1/Arrays/MappingAnArray";
 import ReducingAnArray from "src/pages/JS1/Arrays/ReducingAnArray";
+
 // //Exercises
 import ArrayFromRange from "src/pages/JS1/Arrays/Exercises/arrayFromRange";
 import Includes from "src/pages/JS1/Arrays/Exercises/includes";
@@ -53,13 +54,6 @@ import Circle from "src/pages/JS1/Functions/Exercises/Circle";
 import ErrorHandling from "src/pages/JS1/Functions/Exercises/ErrorHandling";
 // /* #endregion */
 
-// /* #region JS2 */
-import OOPIntro from "src/pages/JS2/OOPIntro";
-import ObjectLiterals from "src/pages/JS2/Objects/ObjectLiterals";
-import FactoryConstructorFunctions from "src/pages/JS2/Objects/FactoryConstructorFunctions";
-import FunctionsAreObjects from "src/pages/JS2/Objects/FunctionsAreObjects";
-import ValueVsReferenceTypes from "src/pages/JS2/Objects/ValueVsReferenceTypes";
-
 // Basics
 import Variables from "src/pages/JS1/Basics/Variables";
 import Constants from "src/pages/JS1/Basics/Constants";
@@ -67,6 +61,14 @@ import PrimitiveTypes from "src/pages/JS1/Basics/PrimitiveTypes";
 import Objects from "src/pages/JS1/Basics/Objects";
 import Arrays from "src/pages/JS1/Basics/Arrays";
 import Functions from "src/pages/JS1/Basics/Functions";
+
+// /* #region JS2 */
+import OOPIntro from "src/pages/JS2/OOPIntro";
+import ObjectLiterals from "src/pages/JS2/Objects/ObjectLiterals";
+import FactoryConstructorFunctions from "src/pages/JS2/Objects/FactoryConstructorFunctions";
+import FunctionsAreObjects from "src/pages/JS2/Objects/FunctionsAreObjects";
+import ValueVsReferenceTypes from "src/pages/JS2/Objects/ValueVsReferenceTypes";
+import ModifyingProperties from "src/pages/JS2/Objects/ModifyingProperties";
 
 /* #endregion */
 
@@ -131,6 +133,7 @@ function App() {
           <FactoryConstructorFunctions />
           <FunctionsAreObjects />
           <ValueVsReferenceTypes />
+          <ModifyingProperties />
         </section>
         {/* <section className="JS1basics">
           <Variables />
