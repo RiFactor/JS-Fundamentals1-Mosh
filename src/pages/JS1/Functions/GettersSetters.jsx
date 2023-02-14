@@ -15,6 +15,8 @@ const GettersSetters = () => {
     }
   };
 
+  // console.log(person.firstName);
+
   console.log(person.fullName);
   person.fullName = "Jon Snow";
 

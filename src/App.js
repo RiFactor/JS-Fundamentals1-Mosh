@@ -63,6 +63,7 @@ import Arrays from "src/pages/JS1/Basics/Arrays";
 import Functions from "src/pages/JS1/Basics/Functions";
 
 // /* #region JS2 */
+// Objects
 import OOPIntro from "src/pages/JS2/OOPIntro";
 import ObjectLiterals from "src/pages/JS2/Objects/ObjectLiterals";
 import FactoryConstructorFunctions from "src/pages/JS2/Objects/FactoryConstructorFunctions";
@@ -72,6 +73,12 @@ import ModifyingProperties from "src/pages/JS2/Objects/ModifyingProperties";
 import Abstraction from "src/pages/JS2/Objects/Abstraction";
 import Stopwatch from "src/pages/JS2/Objects/Stopwatch";
 import StopWatch2 from "src/pages/JS2/Objects/StopWatch2";
+import StopWatch3 from "src/pages/JS2/Objects/StopWatch3";
+// Prototypes
+import Inheritance from "src/pages/JS2/Prototypes/Inheritance";
+import PropertyDescriptors from "src/pages/JS2/Prototypes/PropertyDescriptors";
+import PrototypeInstance from "src/pages/JS2/Prototypes/PrototypeInstance";
+import IteratingMembers from "src/pages/JS2/Prototypes/IteratingMembers";
 
 /* #endregion */
 
@@ -140,6 +147,13 @@ function App() {
           <Abstraction />
           <Stopwatch />
           <StopWatch2 />
+          <StopWatch3 />
+        </section>
+        <section className="Inheritance">
+          <Inheritance />
+          <PropertyDescriptors />
+          <PrototypeInstance />
+          <IteratingMembers />
         </section>
         {/* <section className="JS1basics">
           <Variables />
